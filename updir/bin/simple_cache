@@ -1,0 +1,7 @@
+#!/bin/sh
+./erts-5.10.4/bin/erl \
+-sname cache \
+–boot ./releases/simple_cache-0.1.0/start \
+–config ./releases/simple_cache-0.1.0/sys \
+–detached
+
